@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EF7E5A8C27958C5F009E4A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5A8B27958C5F009E4A0C /* AppDelegate.swift */; };
 		EF7E5A8E27958C5F009E4A0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5A8D27958C5F009E4A0C /* SceneDelegate.swift */; };
-		EF7E5A9027958C5F009E4A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5A8F27958C5F009E4A0C /* ViewController.swift */; };
+		EF7E5A9027958C5F009E4A0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5A8F27958C5F009E4A0C /* HomeViewController.swift */; };
 		EF7E5A9327958C5F009E4A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7E5A9127958C5F009E4A0C /* Main.storyboard */; };
 		EF7E5A9627958C5F009E4A0C /* Marvel_Appsolute.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5A9427958C5F009E4A0C /* Marvel_Appsolute.xcdatamodeld */; };
 		EF7E5A9827958C60009E4A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7E5A9727958C60009E4A0C /* Assets.xcassets */; };
@@ -17,6 +17,11 @@
 		EF7E5AA627958C61009E4A0C /* Marvel_AppsoluteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5AA527958C61009E4A0C /* Marvel_AppsoluteTests.swift */; };
 		EF7E5AB027958C61009E4A0C /* Marvel_AppsoluteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5AAF27958C61009E4A0C /* Marvel_AppsoluteUITests.swift */; };
 		EF7E5AB227958C61009E4A0C /* Marvel_AppsoluteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5AB127958C61009E4A0C /* Marvel_AppsoluteUITestsLaunchTests.swift */; };
+		EF7E5AC0279596F2009E4A0C /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5ABF279596F2009E4A0C /* UIButton.swift */; };
+		EF7E5AC427959A24009E4A0C /* ComicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5AC327959A24009E4A0C /* ComicsViewController.swift */; };
+		EF7E5AC827959D82009E4A0C /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5AC727959D82009E4A0C /* StorageService.swift */; };
+		EF7E5ACA27959D90009E4A0C /* ComicsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E5AC927959D90009E4A0C /* ComicsService.swift */; };
+		F4A0126F82859D5DD2F5EF93 /* Pods_Marvel_Appsolute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B122354FA81B267260DCAC6 /* Pods_Marvel_Appsolute.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CC67778F5D6AB5C8C888F74 /* Pods-Marvel_Appsolute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel_Appsolute.release.xcconfig"; path = "Target Support Files/Pods-Marvel_Appsolute/Pods-Marvel_Appsolute.release.xcconfig"; sourceTree = "<group>"; };
+		4FDA7C986797676A9E753EB8 /* Pods-Marvel_Appsolute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel_Appsolute.debug.xcconfig"; path = "Target Support Files/Pods-Marvel_Appsolute/Pods-Marvel_Appsolute.debug.xcconfig"; sourceTree = "<group>"; };
+		5B122354FA81B267260DCAC6 /* Pods_Marvel_Appsolute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvel_Appsolute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7E5A8827958C5F009E4A0C /* Marvel_Appsolute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel_Appsolute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7E5A8B27958C5F009E4A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF7E5A8D27958C5F009E4A0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF7E5A8F27958C5F009E4A0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF7E5A8F27958C5F009E4A0C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EF7E5A9227958C5F009E4A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF7E5A9527958C5F009E4A0C /* Marvel_Appsolute.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Marvel_Appsolute.xcdatamodel; sourceTree = "<group>"; };
 		EF7E5A9727958C60009E4A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		EF7E5AAB27958C61009E4A0C /* Marvel_AppsoluteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marvel_AppsoluteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7E5AAF27958C61009E4A0C /* Marvel_AppsoluteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvel_AppsoluteUITests.swift; sourceTree = "<group>"; };
 		EF7E5AB127958C61009E4A0C /* Marvel_AppsoluteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvel_AppsoluteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF7E5ABF279596F2009E4A0C /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		EF7E5AC327959A24009E4A0C /* ComicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsViewController.swift; sourceTree = "<group>"; };
+		EF7E5AC727959D82009E4A0C /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		EF7E5AC927959D90009E4A0C /* ComicsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A0126F82859D5DD2F5EF93 /* Pods_Marvel_Appsolute.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		427CEAF823029BA5CDADB8E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B122354FA81B267260DCAC6 /* Pods_Marvel_Appsolute.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		943A0ED390DB8686AEDDBF76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FDA7C986797676A9E753EB8 /* Pods-Marvel_Appsolute.debug.xcconfig */,
+				1CC67778F5D6AB5C8C888F74 /* Pods-Marvel_Appsolute.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EF7E5A7F27958C5F009E4A0C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				EF7E5AA427958C61009E4A0C /* Marvel_AppsoluteTests */,
 				EF7E5AAE27958C61009E4A0C /* Marvel_AppsoluteUITests */,
 				EF7E5A8927958C5F009E4A0C /* Products */,
+				943A0ED390DB8686AEDDBF76 /* Pods */,
+				427CEAF823029BA5CDADB8E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +134,11 @@
 		EF7E5A8A27958C5F009E4A0C /* Marvel_Appsolute */ = {
 			isa = PBXGroup;
 			children = (
+				EF7E5AC627959D77009E4A0C /* Services */,
+				EF7E5AC527959CE0009E4A0C /* Controllers */,
 				EF7E5A8B27958C5F009E4A0C /* AppDelegate.swift */,
 				EF7E5A8D27958C5F009E4A0C /* SceneDelegate.swift */,
-				EF7E5A8F27958C5F009E4A0C /* ViewController.swift */,
+				EF7E5ABE279596E1009E4A0C /* Extensions */,
 				EF7E5A9127958C5F009E4A0C /* Main.storyboard */,
 				EF7E5A9727958C60009E4A0C /* Assets.xcassets */,
 				EF7E5A9927958C60009E4A0C /* LaunchScreen.storyboard */,
@@ -130,6 +165,32 @@
 			path = Marvel_AppsoluteUITests;
 			sourceTree = "<group>";
 		};
+		EF7E5ABE279596E1009E4A0C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E5ABF279596F2009E4A0C /* UIButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF7E5AC527959CE0009E4A0C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E5A8F27958C5F009E4A0C /* HomeViewController.swift */,
+				EF7E5AC327959A24009E4A0C /* ComicsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF7E5AC627959D77009E4A0C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EF7E5AC727959D82009E4A0C /* StorageService.swift */,
+				EF7E5AC927959D90009E4A0C /* ComicsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF7E5AB527958C61009E4A0C /* Build configuration list for PBXNativeTarget "Marvel_Appsolute" */;
 			buildPhases = (
+				66CA6E017871F782DF9ED399 /* [CP] Check Pods Manifest.lock */,
 				EF7E5A8427958C5F009E4A0C /* Sources */,
 				EF7E5A8527958C5F009E4A0C /* Frameworks */,
 				EF7E5A8627958C5F009E4A0C /* Resources */,
+				D4E2E2F65FFDFAC491EBE7ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +319,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66CA6E017871F782DF9ED399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marvel_Appsolute-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4E2E2F65FFDFAC491EBE7ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marvel_Appsolute/Pods-Marvel_Appsolute-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marvel_Appsolute/Pods-Marvel_Appsolute-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marvel_Appsolute/Pods-Marvel_Appsolute-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF7E5A8427958C5F009E4A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7E5AC427959A24009E4A0C /* ComicsViewController.swift in Sources */,
+				EF7E5AC0279596F2009E4A0C /* UIButton.swift in Sources */,
 				EF7E5A9627958C5F009E4A0C /* Marvel_Appsolute.xcdatamodeld in Sources */,
-				EF7E5A9027958C5F009E4A0C /* ViewController.swift in Sources */,
+				EF7E5A9027958C5F009E4A0C /* HomeViewController.swift in Sources */,
 				EF7E5A8C27958C5F009E4A0C /* AppDelegate.swift in Sources */,
+				EF7E5ACA27959D90009E4A0C /* ComicsService.swift in Sources */,
 				EF7E5A8E27958C5F009E4A0C /* SceneDelegate.swift in Sources */,
+				EF7E5AC827959D82009E4A0C /* StorageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +547,7 @@
 		};
 		EF7E5AB627958C61009E4A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FDA7C986797676A9E753EB8 /* Pods-Marvel_Appsolute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +559,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,12 +571,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EF7E5AB727958C61009E4A0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC67778F5D6AB5C8C888F74 /* Pods-Marvel_Appsolute.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +589,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,7 +601,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
